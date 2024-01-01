@@ -17,7 +17,7 @@ const Result = () => {
       <h2>Result</h2>
       <div className="Page">
         <h3>You need more practice!</h3>
-        <h1>Your Score is {((correctAnswers / totalQuestions) * 100).toFixed(0)}%</h1>
+        <h1>Your Score is {correctAnswers}</h1>
         <div className="flex around">
           <div>
             <h4>Total number of questions</h4>
